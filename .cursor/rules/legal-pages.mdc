@@ -1,0 +1,23 @@
+---
+description: How legal pages (privacy + terms) are structured on this GitHub Pages site. Apply when adding or editing an app's política de privacidade or termos.
+globs: "{index.html,README.md,**/privacy.html,**/terms.html,_templates/**}"
+alwaysApply: false
+---
+
+# Legal pages
+
+Each app is a folder next to `taco/`, `ibge/`, `loterias/`.
+
+Required files:
+
+- `{slug}/index.html` — hub with disclaimer + cards
+- `{slug}/privacy.html` — PT (`#politica-de-privacidade`) then EN (`#privacy-policy`)
+- `{slug}/terms.html` — PT (`#termos-e-condicoes`) then EN (`#terms-and-conditions`)
+
+Also add a card on the root `index.html` and a line in `README.md`.
+
+Chrome: `../style.css`, header with site link, `main.doc` on legal pages, lang nav, footer year script. Do not inline CSS.
+
+Contact: `rodrigo.scroferneker@gmail.com`. Date both languages the same day.
+
+To add a new app, follow `.cursor/skills/add-app-legal/SKILL.md` (copy `_templates/app/`).

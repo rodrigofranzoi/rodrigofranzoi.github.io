@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de privacidade — {{APP_NAME}}</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <p class="site"><a href="../index.html">Rodrigo Franzoi Scroferneker</a></p>
+  <h1><a href="index.html">{{APP_NAME}}</a></h1>
+  <p>Política de privacidade</p>
+</header>
+<main class="doc">
+  <a class="back" href="index.html">&larr; {{APP_NAME}}</a>
+  <nav class="lang-nav">
+    <a href="#politica-de-privacidade">Português</a> · <a href="#privacy-policy">English</a>
+  </nav>
+
+  <section class="lang-block" id="politica-de-privacidade" lang="pt-BR">
+    <h1>Política de privacidade</h1>
+    <p class="updated">Última atualização: {{UPDATED_PT}}</p>
+    {{PRIVACY_SUMMARY_PT}}
+    <h2>Contato</h2>
+    <p>
+      Rodrigo Franzoi Scroferneker<br>
+      <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>
+    </p>
+    <p><a href="terms.html">Termos e condições</a></p>
+  </section>
+
+  <section class="lang-block" id="privacy-policy" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: {{UPDATED_EN}}</p>
+    {{PRIVACY_SUMMARY_EN}}
+    <h2>Contact</h2>
+    <p>
+      Rodrigo Franzoi Scroferneker<br>
+      <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>
+    </p>
+    <p><a href="terms.html">Terms and Conditions</a></p>
+  </section>
+</main>
+<footer>
+  &copy; <span id="year"></span> Rodrigo Franzoi Scroferneker. Todos os direitos reservados.
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
