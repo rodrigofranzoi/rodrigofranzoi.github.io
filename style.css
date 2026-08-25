@@ -41,6 +41,29 @@ main {
   padding: 2.5rem 1.5rem 4rem;
 }
 
+.intro {
+  margin: 0 0 2.25rem;
+}
+
+.intro p {
+  margin: 0 0 0.85rem;
+  color: #d3d6dc;
+  font-size: 1.02rem;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  margin: 0 0 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .card-grid {
   display: grid;
   gap: 1rem;
@@ -49,6 +72,42 @@ main {
 
 @media (min-width: 560px) {
   .card-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.card-grid.apps {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 560px) {
+  .card-grid.apps { grid-template-columns: 1fr; }
+}
+
+.card .tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.02em;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--accent);
+}
+
+.lang-nav {
+  margin: 0 0 1.75rem;
+  font-size: 0.9rem;
+}
+
+.lang-block + .lang-block {
+  border-top: 1px solid var(--border);
+  padding-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .card {
