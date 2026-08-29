@@ -13,6 +13,7 @@ Contato: [rodrigo.scroferneker@gmail.com](mailto:rodrigo.scroferneker@gmail.com)
 | Tabela TACO | [taco/](taco/index.html) | [privacy](taco/privacy.html) | [terms](taco/terms.html) |
 | Tabela IBGE | [ibge/](ibge/index.html) | [privacy](ibge/privacy.html) | [terms](ibge/terms.html) |
 | Loterias Brasil | [loterias/](loterias/index.html) | [privacy](loterias/privacy.html) | [terms](loterias/terms.html) |
+| Nutri Rótulo | [nutri-rotulo/](nutri-rotulo/index.html) | [privacy](nutri-rotulo/privacy.html) | [terms](nutri-rotulo/terms.html) |
 
 URLs públicas (Loterias Brasil):
 
