@@ -14,11 +14,12 @@ Contato: [rodrigo.scroferneker@gmail.com](mailto:rodrigo.scroferneker@gmail.com)
 | Tabela IBGE | [ibge/](ibge/index.html) | [privacy](ibge/privacy.html) | [terms](ibge/terms.html) |
 | Loterias Brasil | [loterias/](loterias/index.html) | [privacy](loterias/privacy.html) | [terms](loterias/terms.html) |
 | Nutri Rótulo | [nutri-rotulo/](nutri-rotulo/index.html) | [privacy](nutri-rotulo/privacy.html) | [terms](nutri-rotulo/terms.html) |
+| DiningXP | [diningxp/](diningxp/index.html) | [privacy](diningxp/privacy.html) | [terms](diningxp/terms.html) |
 
-URLs públicas (Loterias Brasil):
+URLs públicas (DiningXP):
 
-- https://rodrigofranzoi.github.io/loterias/privacy.html
-- https://rodrigofranzoi.github.io/loterias/terms.html
+- https://rodrigofranzoi.github.io/diningxp/privacy.html
+- https://rodrigofranzoi.github.io/diningxp/terms.html
 
 `privacy.html` e `terms.html` na raiz redirecionam para a Tabela IBGE (links antigos).
 
