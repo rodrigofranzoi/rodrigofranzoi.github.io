@@ -20,6 +20,7 @@ URLs públicas (DiningXP):
 
 - https://rodrigofranzoi.github.io/diningxp/privacy.html
 - https://rodrigofranzoi.github.io/diningxp/terms.html
+- Fonte oficial do benefício (American Express França): https://www.americanexpress.com/fr-fr/benefits/diningbenefit
 
 `privacy.html` e `terms.html` na raiz redirecionam para a Tabela IBGE (links antigos).
 
