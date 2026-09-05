@@ -31,8 +31,9 @@ Cada app fica em uma pasta com o mesmo chrome (`style.css`):
 ```text
 {slug}/
   index.html      hub (aviso + cards)
-  privacy.html    PT (#politica-de-privacidade) e EN (#privacy-policy)
-  terms.html      PT (#termos-e-condicoes) e EN (#terms-and-conditions)
+  privacy.html    PT / EN / FR (#politica-de-privacidade, #privacy-policy, #politique-de-confidentialite)
+  terms.html      PT / EN / FR (#termos-e-condicoes, #terms-and-conditions, #conditions-d-utilisation)
+                  (DiningXP inclut le français ; les autres apps restent PT+EN)
 ```
 
 ## Incluir outro app

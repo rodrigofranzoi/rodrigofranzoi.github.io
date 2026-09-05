@@ -11,8 +11,8 @@ Each app is a folder next to `taco/`, `ibge/`, `loterias/`.
 Required files:
 
 - `{slug}/index.html` — hub with disclaimer + cards
-- `{slug}/privacy.html` — PT (`#politica-de-privacidade`) then EN (`#privacy-policy`)
-- `{slug}/terms.html` — PT (`#termos-e-condicoes`) then EN (`#terms-and-conditions`)
+- `{slug}/privacy.html` — PT (`#politica-de-privacidade`) then EN (`#privacy-policy`); DiningXP also FR (`#politique-de-confidentialite`)
+- `{slug}/terms.html` — PT (`#termos-e-condicoes`) then EN (`#terms-and-conditions`); DiningXP also FR (`#conditions-d-utilisation`)
 
 Also add a card on the root `index.html` and a line in `README.md`.
 
