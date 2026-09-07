@@ -18,6 +18,7 @@ Contato: [rodrigo.scroferneker@gmail.com](mailto:rodrigo.scroferneker@gmail.com)
 | Clipboard Buddy | [clipboard-buddy/](clipboard-buddy/index.html) | [privacy](clipboard-buddy/privacy.html) | [terms](clipboard-buddy/terms.html) |
 | Screenshot Buddy | [screenshot-buddy/](screenshot-buddy/index.html) | [privacy](screenshot-buddy/privacy.html) | [terms](screenshot-buddy/terms.html) |
 | OTP Buddy | [otp-buddy/](otp-buddy/index.html) | [privacy](otp-buddy/privacy.html) | [terms](otp-buddy/terms.html) |
+| Paint Buddy | [paint-buddy/](paint-buddy/index.html) | [privacy](paint-buddy/privacy.html) | [terms](paint-buddy/terms.html) |
 
 URLs públicas (Buddy — macOS):
 
@@ -27,6 +28,8 @@ URLs públicas (Buddy — macOS):
 - https://rodrigofranzoi.github.io/screenshot-buddy/terms.html
 - https://rodrigofranzoi.github.io/otp-buddy/privacy.html
 - https://rodrigofranzoi.github.io/otp-buddy/terms.html
+- https://rodrigofranzoi.github.io/paint-buddy/privacy.html
+- https://rodrigofranzoi.github.io/paint-buddy/terms.html
 
 URLs públicas (DiningXP):
 
@@ -43,9 +46,9 @@ Cada app fica em uma pasta com o mesmo chrome (`style.css`):
 ```text
 {slug}/
   index.html      hub (aviso + cards)
-  privacy.html    PT / EN / FR (#politica-de-privacidade, #privacy-policy, #politique-de-confidentialite)
-  terms.html      PT / EN / FR (#termos-e-condicoes, #terms-and-conditions, #conditions-d-utilisation)
-                  (DiningXP inclut le français ; les autres apps restent PT+EN)
+  privacy.html    PT / EN (+ FR for DiningXP; + all Buddy locales for Paint Buddy)
+  terms.html      PT / EN (+ FR for DiningXP; + all Buddy locales for Buddy apps:
+                  pt, en, nl, es, fr, it, ar, zh, ru, ja)
 ```
 
 ## Incluir outro app

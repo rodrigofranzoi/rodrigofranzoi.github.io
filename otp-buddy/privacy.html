@@ -21,60 +21,75 @@
   <section class="lang-block" id="politica-de-privacidade" lang="pt-BR">
     <h1>Política de privacidade</h1>
     <p class="updated">Última atualização: 5 de setembro de 2026</p>
-
-    <p>
-      Esta política descreve como o <strong>OTP Buddy</strong> (“Aplicativo”), de Rodrigo Franzoi Scroferneker (“nós”), trata informações no macOS.
-    </p>
-
+    <p>Esta política descreve como o aplicativo <strong>OTP Buddy</strong> (“Aplicativo”), desenvolvido por Rodrigo Franzoi Scroferneker (“nós”), trata informações quando você o utiliza no Mac. Ao usar o Aplicativo, você concorda com estas práticas.</p>
     <h2>1. Quem é o responsável</h2>
     <p>
-      Rodrigo Franzoi Scroferneker —
+      O controlador dos dados pessoais eventualmente tratados é Rodrigo Franzoi Scroferneker. Para exercer direitos ou tirar dúvidas:
       <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>.
     </p>
-
     <h2>2. Resumo</h2>
-    <p>
-      O OTP Buddy conecta-se a uma caixa de e-mail que <strong>você</strong> configura (IMAP) para detectar códigos de verificação e, se quiser, copiá-los para a área de transferência. A senha/app password fica no Keychain do Mac. O corpo das mensagens é lido localmente para extrair o código; <strong>não enviamos e-mails nem códigos OTP aos nossos servidores</strong>. Códigos ficam só na memória por pouco tempo. Analytics Firebase é opt-in; Crashlytics cobre falhas técnicas sem conteúdo de e-mail.
-    </p>
-
+    <p>O OTP Buddy conecta-se ao servidor IMAP que você indicar, com as credenciais que você fornecer, para detectar códigos de verificação recentes na caixa de entrada. A senha fica no Keychain do Mac; códigos ficam só na memória por pouco tempo. Analytics é opcional; Crashlytics ajuda a diagnosticar falhas. Não enviamos e-mails nem códigos OTP para nossos servidores.</p>
     <h2>3. O que o Aplicativo não faz</h2>
     <ul>
-      <li>Não cria conta nossa; usa a conta de e-mail que você informar.</li>
-      <li>Não reenvia suas mensagens para nós.</li>
-      <li>Não substitui o app Mail da Apple nem autenticação em dois fatores do provedor.</li>
-      <li>Não vende dados nem exibe anúncios de terceiros.</li>
+      <li>Não cria conta, login ou cadastro nosso.</li>
+      <li>Não solicita nome, CPF ou endereço residencial.</li>
+      <li>Não vende dados e não exibe anúncios de terceiros.</li>
+      <li>Não envia o conteúdo sensível do app (área de transferência, capturas, corpos de e-mail ou códigos OTP) para nossos servidores nem para o Firebase.</li>
     </ul>
-
-    <h2>4. Dados no aparelho</h2>
+    <h2>4. Dados guardados no seu Mac</h2>
+    <p>O Aplicativo pode armazenar localmente, entre outros:</p>
     <ul>
-      <li><strong>Credenciais IMAP:</strong> senha/app password no Keychain; host/usuário em preferências locais.</li>
-      <li><strong>Códigos OTP:</strong> apenas em memória (TTL curto), não gravados em disco.</li>
-      <li><strong>Preferências:</strong> cópia automática, etc.</li>
+      <li><strong>Credenciais IMAP:</strong> host, usuário e senha no Keychain do macOS (a senha não vai para UserDefaults).</li>
+      <li><strong>Preferências:</strong> auto-cópia (desligada por padrão), pausa, iniciar no login e opt-in de analytics.</li>
+      <li><strong>Códigos OTP:</strong> mantidos apenas em memória por tempo curto; não são gravados em disco.</li>
     </ul>
-
-    <h2>5. Rede</h2>
-    <p><strong>5.1. Seu provedor de e-mail.</strong> O Aplicativo abre conexão IMAP/TLS com o servidor que você configurar (por exemplo Gmail, Outlook, Fastmail). O provedor processa o acesso conforme o contrato dele com você.</p>
-    <p><strong>5.2. Firebase.</strong> Analytics só com opt-in; Crashlytics para estabilidade — sem corpo de e-mail ou códigos.</p>
-    <p><strong>5.3. Apple.</strong> Distribuição na Mac App Store.</p>
-
-    <h2>6. Finalidades e LGPD</h2>
-    <p>Detectar e apresentar OTP no Mac; manter credenciais no Keychain; melhorar estabilidade. Lei nº 13.709/2018 quando aplicável. Não vendemos dados.</p>
-
+    <p>Ao consultar o IMAP, o Aplicativo lê mensagens recentes <em>no seu Mac</em> contra o servidor de e-mail que você escolheu. Esse tráfego é entre o seu Mac e o provedor de e-mail (TLS), não com nossos servidores.</p>
+    <p>Você pode apagar esses dados desinstalando o Aplicativo ou, quando disponível, nas próprias configurações.</p>
+    <h2>5. Informações enviadas pelos serviços</h2>
+    <p><strong>5.1. Seu provedor de e-mail (IMAP).</strong> Você autoriza o Aplicativo a autenticar e ler a caixa configurada. O tratamento pelo provedor segue a política dele.</p>
+    <p><strong>5.2. Firebase Analytics (opcional).</strong> Se você ativar, o Google Firebase pode receber eventos técnicos (por exemplo, “OTP detectado” sem o código). Nunca enviamos corpos de e-mail nem códigos.</p>
+    <p><strong>5.3. Firebase Crashlytics.</strong> Relatórios de falha técnicos podem ser enviados, sem conteúdo de e-mail.</p>
+    <p><strong>5.4. Apple.</strong> A distribuição pela Mac App Store segue as regras da Apple.</p>
+    <h2>6. Finalidades e bases legais</h2>
+    <p>Usamos as informações para:</p>
+    <ul>
+      <li>detectar e exibir códigos OTP no seu Mac;</li>
+      <li>guardar credenciais IMAP com segurança no Keychain;</li>
+      <li>melhorar o produto com analytics opcional;</li>
+      <li>diagnosticar falhas com Crashlytics.</li>
+    </ul>
+    <p>No Brasil, o tratamento observa a Lei nº 13.709/2018 (LGPD). Não vendemos seus dados e não usamos as informações para anúncios de terceiros.</p>
     <h2>7. Compartilhamento</h2>
+    <p>Compartilhamos informações apenas quando necessário para operar o Aplicativo:</p>
     <ul>
-      <li>Provedor de e-mail (IMAP que você autorizou);</li>
-      <li>Apple (App Store);</li>
-      <li>Google Firebase (opt-in analytics e Crashlytics);</li>
-      <li>quando a lei exigir.</li>
+      <li><strong>Apple:</strong> entrega do app na Mac App Store;</li>
+      <li><strong>Seu provedor IMAP:</strong> autenticação e leitura da caixa que você configurou;</li>
+      <li><strong>Google (Firebase):</strong> analytics (se você optar) e Crashlytics;</li>
+      <li>se a lei ou autoridade competente exigir, ou para defender direitos em processo.</li>
     </ul>
-
-    <h2>8. Retenção e direitos</h2>
-    <p>Remova a conta nas configurações ou desinstale o app para apagar dados locais. Códigos expiram da memória automaticamente. Contato para direitos LGPD: o e-mail acima.</p>
-
-    <h2>9. Crianças, segurança e alterações</h2>
-    <p>Não voltado a menores de 13 anos. Use app passwords / OAuth quando disponível; TLS no IMAP. Atualizações datadas no topo.</p>
-
-    <h2>10. Contato</h2>
+    <h2>8. Retenção</h2>
+    <p>
+      Dados no Mac permanecem até você apagá-los ou desinstalar o Aplicativo. Relatórios de falha e eventos de analytics (se ativados) seguem a retenção do Firebase/Google. Desinstalar o app remove os dados locais, mas não apaga automaticamente o que já foi enviado a esses serviços.
+    </p>
+    <h2>9. Seus direitos</h2>
+    <p>
+      Você pode desativar o analytics nas configurações do Aplicativo, limpar dados locais ou desinstalá-lo. Para pedidos de informação, correção ou exclusão, escreva para
+      <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>.
+      Responderemos na medida do razoável e da lei aplicável (incluindo a LGPD).
+    </p>
+    <h2>10. Crianças</h2>
+    <p>
+      O Aplicativo não coleta dados para criar perfil de crianças e não é voltado a menores de 13 anos. Se você for responsável por um menor e acreditar que dados foram enviados, entre em contato.
+    </p>
+    <h2>11. Segurança e transferências</h2>
+    <p>
+      Conteúdo local é protegido com criptografia AES-GCM (CryptoKit) e chaves no Keychain do macOS, quando aplicável. Nenhum envio pela internet é totalmente isento de risco. O Firebase e a App Store podem processar informações técnicas em servidores fora do Brasil; as salvaguardas estão descritas nas políticas desses provedores.
+    </p>
+    <h2>12. Alterações</h2>
+    <p>
+      Podemos atualizar esta política. A data no topo indica a versão vigente. O uso continuado após a publicação das mudanças significa que você está ciente da nova redação.
+    </p>
+    <h2>13. Contato</h2>
     <p>
       Rodrigo Franzoi Scroferneker<br>
       <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>
@@ -85,37 +100,74 @@
   <section class="lang-block" id="privacy-policy" lang="en">
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: 5 September 2026</p>
-
-    <p>
-      This policy describes how <strong>OTP Buddy</strong> (“App”), by Rodrigo Franzoi Scroferneker (“we”), handles information on macOS.
-    </p>
-
+    <p>This policy explains how the <strong>OTP Buddy</strong> app (“App”), developed by Rodrigo Franzoi Scroferneker (“we”), handles information when you use it on Mac. By using the App, you agree to these practices.</p>
     <h2>1. Controller</h2>
-    <p>Rodrigo Franzoi Scroferneker — <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>.</p>
-
-    <h2>2. Summary</h2>
     <p>
-      OTP Buddy connects to an email inbox <strong>you</strong> configure (IMAP) to detect verification codes and optionally copy them. IMAP passwords stay in the macOS Keychain. Message bodies are read locally to extract codes; <strong>we do not upload emails or OTP codes to our servers</strong>. Codes are memory-only with a short TTL. Firebase Analytics is opt-in; Crashlytics covers crashes without mail content.
+      The controller of any personal data processed is Rodrigo Franzoi Scroferneker. Contact:
+      <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>.
     </p>
-
-    <h2>3. What we do not do</h2>
+    <h2>2. Summary</h2>
+    <p>OTP Buddy connects to the IMAP server you configure, with credentials you provide, to detect recent verification codes in your inbox. The password stays in the Mac Keychain; codes stay in memory briefly. Analytics is optional; Crashlytics helps diagnose crashes. We do not send emails or OTP codes to our servers.</p>
+    <h2>3. What the App does not do</h2>
     <ul>
-      <li>No account on our side beyond the mailbox you connect.</li>
-      <li>No forwarding of your mail to us.</li>
-      <li>Not a replacement for Apple Mail or your provider’s 2FA.</li>
-      <li>No sale of data or third-party ads.</li>
+      <li>It does not create our own accounts or require sign-in to us.</li>
+      <li>It does not ask for your name, tax ID or home address.</li>
+      <li>It does not sell data and does not show third-party ads.</li>
+      <li>It does not send sensitive app content (clipboard, screenshots, email bodies or OTP codes) to our servers or to Firebase.</li>
     </ul>
-
-    <h2>4. On-device data</h2>
-    <p>IMAP credentials in Keychain; host/username in local preferences; OTP codes in memory only.</p>
-
-    <h2>5. Network</h2>
-    <p>Your IMAP provider (TLS); optional Firebase Analytics; Crashlytics; Mac App Store (Apple).</p>
-
-    <h2>6–9. Purposes, sharing, rights, security</h2>
-    <p>Surface OTPs on your Mac and keep credentials secure. Sharing limited to your mail provider, Apple, and Firebase as above. LGPD may apply. Not for children under 13.</p>
-
-    <h2>10. Contact</h2>
+    <h2>4. Data stored on your Mac</h2>
+    <ul>
+      <li><strong>IMAP credentials:</strong> host, username and password in the macOS Keychain (password is not stored in UserDefaults).</li>
+      <li><strong>Preferences:</strong> auto-copy (off by default), pause, launch at login and analytics opt-in.</li>
+      <li><strong>OTP codes:</strong> held in memory only for a short time; not written to disk.</li>
+    </ul>
+    <p>When polling IMAP, the App reads recent messages <em>on your Mac</em> against the mail server you chose. That traffic is between your Mac and your email provider (TLS), not our servers.</p>
+    <p>You can delete this data by uninstalling the App or, when available, in its settings.</p>
+    <h2>5. Information sent through services</h2>
+    <p><strong>5.1. Your email provider (IMAP).</strong> You authorize the App to authenticate and read the configured mailbox. Processing by the provider follows their policy.</p>
+    <p><strong>5.2. Firebase Analytics (optional).</strong> If enabled, Google Firebase may receive technical events (for example, “OTP detected” without the code). Email bodies and codes are never sent.</p>
+    <p><strong>5.3. Firebase Crashlytics.</strong> Technical crash reports may be sent, without email content.</p>
+    <p><strong>5.4. Apple.</strong> Distribution via the Mac App Store follows Apple’s rules.</p>
+    <h2>6. Purposes and legal bases</h2>
+    <p>We use information to:</p>
+    <ul>
+      <li>detect and show OTP codes on your Mac;</li>
+      <li>store IMAP credentials securely in the Keychain;</li>
+      <li>improve the product with optional analytics;</li>
+      <li>diagnose failures with Crashlytics.</li>
+    </ul>
+    <p>In Brazil, processing follows Law No. 13.709/2018 (LGPD). We do not sell your data and do not use it for third-party ads.</p>
+    <h2>7. Sharing</h2>
+    <p>We share information only as needed to operate the App:</p>
+    <ul>
+      <li><strong>Apple:</strong> delivering the app on the Mac App Store;</li>
+      <li><strong>Your IMAP provider:</strong> authentication and reading of the mailbox you configured;</li>
+      <li><strong>Google (Firebase):</strong> analytics (if you opt in) and Crashlytics;</li>
+      <li>when required by law or to defend legal rights.</li>
+    </ul>
+    <h2>8. Retention</h2>
+    <p>
+      Data on your Mac remains until you delete it or uninstall the App. Crash reports and analytics events (if enabled) follow Firebase/Google retention. Uninstalling removes local data but does not automatically erase what was already sent to those services.
+    </p>
+    <h2>9. Your rights</h2>
+    <p>
+      You can turn off analytics in the App settings, clear local data or uninstall. For access, correction or deletion requests, email
+      <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>.
+      We will respond as reasonably required under applicable law (including LGPD).
+    </p>
+    <h2>10. Children</h2>
+    <p>
+      The App does not profile children and is not directed at anyone under 13. If you are a parent or guardian and believe data was sent, contact us.
+    </p>
+    <h2>11. Security and transfers</h2>
+    <p>
+      Local content is protected with AES-GCM (CryptoKit) and Keychain keys on macOS where applicable. No internet transfer is risk-free. Firebase and the App Store may process technical information on servers outside Brazil; see those providers’ policies for safeguards.
+    </p>
+    <h2>12. Changes</h2>
+    <p>
+      We may update this policy. The date at the top shows the current version. Continued use after publication means you are aware of the new text.
+    </p>
+    <h2>13. Contact</h2>
     <p>
       Rodrigo Franzoi Scroferneker<br>
       <a href="mailto:rodrigo.scroferneker@gmail.com">rodrigo.scroferneker@gmail.com</a>
