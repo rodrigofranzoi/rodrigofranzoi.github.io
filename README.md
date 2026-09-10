@@ -16,7 +16,7 @@ Contato: [rodrigo.scroferneker@gmail.com](mailto:rodrigo.scroferneker@gmail.com)
 | Nutri Rótulo | [nutri-rotulo/](nutri-rotulo/index.html) | [privacy](nutri-rotulo/privacy.html) | [terms](nutri-rotulo/terms.html) |
 | DiningXP | [diningxp/](diningxp/index.html) | [privacy](diningxp/privacy.html) | [terms](diningxp/terms.html) |
 | Clipboard Buddy | [clipboard-buddy/](clipboard-buddy/index.html) | [privacy](clipboard-buddy/privacy.html) | [terms](clipboard-buddy/terms.html) |
-| Screenshot Buddy | [screenshot-buddy/](screenshot-buddy/index.html) | [privacy](screenshot-buddy/privacy.html) | [terms](screenshot-buddy/terms.html) |
+| Capture Buddy | [screenshot-buddy/](screenshot-buddy/index.html) | [privacy](screenshot-buddy/privacy.html) | [terms](screenshot-buddy/terms.html) |
 | OTP Buddy | [otp-buddy/](otp-buddy/index.html) | [privacy](otp-buddy/privacy.html) | [terms](otp-buddy/terms.html) |
 | Paint Buddy | [paint-buddy/](paint-buddy/index.html) | [privacy](paint-buddy/privacy.html) | [terms](paint-buddy/terms.html) |
 
