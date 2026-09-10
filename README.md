@@ -15,7 +15,7 @@ Contato: [rodrigo.scroferneker@gmail.com](mailto:rodrigo.scroferneker@gmail.com)
 | Loterias Brasil | [loterias/](loterias/index.html) | [privacy](loterias/privacy.html) | [terms](loterias/terms.html) |
 | Nutri Rótulo | [nutri-rotulo/](nutri-rotulo/index.html) | [privacy](nutri-rotulo/privacy.html) | [terms](nutri-rotulo/terms.html) |
 | DiningXP | [diningxp/](diningxp/index.html) | [privacy](diningxp/privacy.html) | [terms](diningxp/terms.html) |
-| Clipboard Buddy | [clipboard-buddy/](clipboard-buddy/index.html) | [privacy](clipboard-buddy/privacy.html) | [terms](clipboard-buddy/terms.html) |
+| ClipLog Buddy | [clipboard-buddy/](clipboard-buddy/index.html) | [privacy](clipboard-buddy/privacy.html) | [terms](clipboard-buddy/terms.html) |
 | Capture Buddy | [screenshot-buddy/](screenshot-buddy/index.html) | [privacy](screenshot-buddy/privacy.html) | [terms](screenshot-buddy/terms.html) |
 | OTP Buddy | [otp-buddy/](otp-buddy/index.html) | [privacy](otp-buddy/privacy.html) | [terms](otp-buddy/terms.html) |
 | Paint Buddy | [paint-buddy/](paint-buddy/index.html) | [privacy](paint-buddy/privacy.html) | [terms](paint-buddy/terms.html) |
@@ -46,10 +46,10 @@ Cada app fica em uma pasta com o mesmo chrome (`style.css`):
 ```text
 {slug}/
   index.html      hub (aviso + cards)
-  privacy.html    PT / EN (+ FR for DiningXP; + all Buddy locales for Paint Buddy
-                  and Capture Buddy: pt, en, nl, es, fr, it, ar, zh, ru, ja)
+  privacy.html    PT / EN (+ FR for DiningXP; + all Buddy locales for Paint Buddy,
+                  Capture Buddy, and ClipLog Buddy: pt, en, de, nl, es, fr, it, ar, zh, ru, ja)
   terms.html      PT / EN (+ FR for DiningXP; + all Buddy locales for Buddy apps:
-                  pt, en, nl, es, fr, it, ar, zh, ru, ja)
+                  pt, en, de, nl, es, fr, it, ar, zh, ru, ja)
 ```
 
 ## Incluir outro app
