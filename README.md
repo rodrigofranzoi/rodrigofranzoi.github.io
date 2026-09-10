@@ -46,7 +46,8 @@ Cada app fica em uma pasta com o mesmo chrome (`style.css`):
 ```text
 {slug}/
   index.html      hub (aviso + cards)
-  privacy.html    PT / EN (+ FR for DiningXP; + all Buddy locales for Paint Buddy)
+  privacy.html    PT / EN (+ FR for DiningXP; + all Buddy locales for Paint Buddy
+                  and Capture Buddy: pt, en, nl, es, fr, it, ar, zh, ru, ja)
   terms.html      PT / EN (+ FR for DiningXP; + all Buddy locales for Buddy apps:
                   pt, en, nl, es, fr, it, ar, zh, ru, ja)
 ```
